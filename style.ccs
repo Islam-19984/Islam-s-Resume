@@ -1,0 +1,92 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+.skill-category ul li:before {
+    content: '\2022'; /* Add bullet points for list items */
+    margin-right: 5px;
+    color: #333;
+}
+
+.experience-entry h3,
+.education-entry h3,
+.project-entry h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.education-entry p,
+.experience-entry p,
+.project-entry p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
